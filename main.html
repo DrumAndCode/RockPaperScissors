@@ -6,10 +6,51 @@
 </head>
 <body>
   <script>
-    // Your JavaScript goes here!
     console.log("Hello, World!");
-    //I'll work on the pseudo code in this branch.
-    //Trying to create a PR manuall on Github now.
+    //Pseudocode for Rock, Paper & Scissors
+    //**********
+
+    //Create Variables
+    //computerChoice: To store the computer's choice
+    //playerChoice: To store the user's choice
+    //computerScore: To store the computer's score.
+    //playerScore: To store the player's score.
+
+    //Function 'playerTurn'
+    //Prompt the user to choose Rock, Paper or Scissors
+    //Store the input in a string 'playerChoice'
+    //Decide what the user typed
+    // Convert the input to all lowercase.
+    // search for the words 'rock','paper', or 'scissor'
+    // if any of these are found, assign the corresponding choice to playerChoice.
+    // Return playeChoice
+
+    //Function 'computerTurn'
+    //  Generate a random input from the computer
+    //  Store computer's input in computerChoice
+    //  Return computerChoice
+
+    //Function 'RoundOfGame'
+    //  Accept two parameters playerChoice and computerChoice
+    //  Compare playerChoice and computerChoice
+    //  The three possibilities are: Paper > Rock, Rock > Scissors, Scissors > Paper
+    // If playerChoice = computerChoice, return "Wow, y'all predicted each other."
+    //  If playerChoice is Rock
+    //    and if computerChoice is Scissors, return "You Win! Rock beats Scissors." +1 Player.
+    //    and if computerChoice is Paper, return "You Lose! Paper beats Rock." +1 Computer.
+    //  If playerChoice is Paper
+    //    and if computerChoice is Rock, return "You Win! Paper beats Rock." +1 Player.
+    //    and if computerChoice is Scissors, return "You Lose! Scissors beats Paper." +1 Computer.
+    //  If playerChoice is Scissors
+    //    and if computerChoice is Paper, return "You Win! Scissors beats Paper." +1 Player.
+    //    and if computerChoice is Rock, return "You Lose! Rock beats Scissors." +1 Computer.
+
+  //Function 'Game'
+  //  Call playerTurn and computerTurn
+  // Call RoundOfGame with playeChoice and computerChoice as parameters
+  // Call 'RoundOfGame' 5 times.
+  // Print what is returned from RoundOfGame
+
   </script>
 </body>
 </html>
